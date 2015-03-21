@@ -28,7 +28,7 @@ function cpt_post_type() {
         'description'         => __( 'Custom post type description', '_s' ),
         'labels'              => $labels,
         'supports'            => array( 'title', 'editor', 'thumbnail', 'comments', 'custom-fields' ),
-        'taxonomies'          => array(  ), // Related taxonomies
+        'taxonomies'          => array( '' ), // Related taxonomies
         'hierarchical'        => true,
         'public'              => true,
         'show_ui'             => true,
